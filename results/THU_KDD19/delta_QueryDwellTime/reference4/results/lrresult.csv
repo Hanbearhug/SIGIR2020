@@ -1,0 +1,2 @@
+,auc_baseline,auc_reference,auc_diff,auc_win_rate,acc_baseline,acc_reference,acc_diff,acc_win_rate,recall_baseline,recall_reference,recall_diff,recall_win_rate,f1_score_baseline,f1_score_reference,f1_score_diff,f1_score_win_rate
+lr,0.675917+/0.030488,0.768676+/0.026475,0.092759+/0.027539,1.0,0.617036+/0.028696,0.691555+/0.02859,0.074518+/0.031079,0.992,0.617036+/0.028696,0.691555+/0.02859,0.074518+/0.031079,0.992,0.616815+/0.028695,0.691453+/0.028612,0.074638+/0.031116,0.992

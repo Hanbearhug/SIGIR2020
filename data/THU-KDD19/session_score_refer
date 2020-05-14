@@ -1,0 +1,7 @@
+setwd("D:/Dr.HanInXMU/毕业论文/和刘jj的论文/KDD19_UserStudy_with satisfaction/data")
+data = read.csv('session_score_refer.csv')
+library(ordinal)
+names(data)
+data$target = factor(data$target)
+model= clm(target ~ score_session_ave + score_session_sum+score_session_peak + score_session_end + query_dwell_time_session_sum+ clicked_doc_count_session_sum+session_len, data = data)
+summary(model)
